@@ -1,5 +1,5 @@
 function handleResponseFromAPI(promise) {
-  promise
+  return promise
     .then(() => {
       return { status: 200, body: 'success' };
     })
